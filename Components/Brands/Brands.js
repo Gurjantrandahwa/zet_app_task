@@ -41,7 +41,7 @@ const Brands = () => {
             <Swiper
                 slidesPerView={5}
                 spaceBetween={40}
-                autoplay={{ delay: 3000 }}
+                autoplay={{ delay: 2000 }}
                 className="brand-slider"
             >
                 {brandImages.map((img, index) => (
