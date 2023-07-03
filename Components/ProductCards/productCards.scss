@@ -20,6 +20,7 @@
     margin-top: 2rem;
     gap: 30px;
     width: 100%;
+    z-index: 1;
 
     .product-single-card {
       width: 47%;
@@ -88,7 +89,8 @@
           font-size: 18px;
         }
       }
-      p{
+
+      p {
         font-size: 16px;
         @media screen and (max-width: 480px) {
           font-size: 14px;
@@ -103,6 +105,7 @@
     top: 2%;
     left: 0;
     z-index: 0;
+    background: url("../../public/Assets/products/p-top-bg.svg");
 
   }
 }

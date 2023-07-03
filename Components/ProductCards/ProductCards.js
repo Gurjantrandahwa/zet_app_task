@@ -3,6 +3,7 @@ import product1 from "../../public/Assets/products/product1.webp";
 import product2 from "../../public/Assets/products/product2.webp";
 import product3 from "../../public/Assets/products/product3.webp";
 import product4 from "../../public/Assets/products/product4.webp";
+import bgTop from "../../public/Assets/products/p-top-bg.svg";
 import Image from "next/image";
 
 export default function ProductCards() {
@@ -49,6 +50,6 @@ export default function ProductCards() {
                 })
             }
         </div>
-        <div className={"product-bg-top"}/>
+<div className={"product-bg-top"}/>
     </div>
 }
