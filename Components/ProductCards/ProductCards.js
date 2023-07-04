@@ -4,6 +4,7 @@ import product2 from "../../public/Assets/products/product2.webp";
 import product3 from "../../public/Assets/products/product3.webp";
 import product4 from "../../public/Assets/products/product4.webp";
 import bgTop from "../../public/Assets/products/p-top-bg.svg";
+import bgBottom from "../../public/Assets/products/product-bg-bottom.svg";
 import Image from "next/image";
 
 export default function ProductCards() {
@@ -50,6 +51,7 @@ export default function ProductCards() {
                 })
             }
         </div>
-<div className={"product-bg-top"}/>
+<Image src={bgTop} className={"product-bg-top"} alt={""}/>
+<Image src={bgBottom} className={"product-bg-bottom"} alt={""}/>
     </div>
 }

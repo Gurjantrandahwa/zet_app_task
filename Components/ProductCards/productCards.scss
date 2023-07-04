@@ -20,7 +20,7 @@
     margin-top: 2rem;
     gap: 30px;
     width: 100%;
-    z-index: 1;
+
 
     .product-single-card {
       width: 47%;
@@ -31,7 +31,7 @@
       border-radius: 8px;
       align-items: center;
       transition: all .4s;
-
+      z-index: 1;
       @media screen and (max-width: 760px) {
         width: 100%;
         margin: auto 30px;
@@ -105,8 +105,15 @@
     top: 2%;
     left: 0;
     z-index: 0;
-    background: url("../../public/Assets/products/p-top-bg.svg");
 
+
+  }
+
+  .product-bg-bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 0
   }
 }
 
