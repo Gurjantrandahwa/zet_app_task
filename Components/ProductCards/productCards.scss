@@ -15,7 +15,6 @@
   .product-cards {
     display: flex;
     justify-content: center;
-
     flex-wrap: wrap;
     margin-top: 2rem;
     gap: 30px;
@@ -91,12 +90,15 @@
       }
 
       p {
-        font-size: 16px;
-        @media screen and (max-width: 480px) {
-          font-size: 14px;
-        }
+        font-size: 14px;
       }
 
+      button {
+        text-transform: capitalize;
+        font-size: 14px;
+        color: rgb(32, 117, 240);
+        font-weight: 500;
+      }
     }
   }
 
@@ -105,8 +107,6 @@
     top: 2%;
     left: 0;
     z-index: 0;
-
-
   }
 
   .product-bg-bottom {

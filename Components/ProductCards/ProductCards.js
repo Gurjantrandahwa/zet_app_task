@@ -13,22 +13,26 @@ export default function ProductCards() {
         {
             img: product1,
             title: "CREDIT CARDS",
-            description: "100% Contactless Application Process with Instant Approval From Top Banks."
+            description: "100% Contactless Application Process with Instant Approval From Top Banks.",
+            btn: "view Details"
         },
         {
             img: product2,
             title: "Loans",
-            description: "100% online process. Instant offers. Affordable Rate of Interest on loans."
+            description: "100% online process. Instant offers. Affordable Rate of Interest on loans.",
+            btn: "view Details"
         },
         {
             img: product3,
             title: "BUY NOW PAY LATER",
-            description: "Short-term financing that allows consumers to make purchases and pay for them over time."
+            description: "Short-term financing that allows consumers to make purchases and pay for them over time.",
+            btn: "view Details"
         },
         {
             img: product4,
             title: "SAVING ACCOUNTS",
-            description: "ZET offers range of savings account that suits your personal needs for the banking."
+            description: "ZET offers range of savings account that suits your personal needs for the banking.",
+            btn: "view Details"
         },
     ]
     return <div className={"product-wrapper container xl mx-auto xl:px-36 2xl:px-4"}>
@@ -42,16 +46,17 @@ export default function ProductCards() {
                     return <div key={index}
                                 className={"product-single-card"}
                     >
-                        <Image src={value.img} alt={"cards"} />
+                        <Image src={value.img} alt={"cards"}/>
                         <div>
                             <h3>{value.title}</h3>
                             <p>{value.description}</p>
+                            <button>{value.btn}</button>
                         </div>
                     </div>
                 })
             }
         </div>
-<Image src={bgTop} className={"product-bg-top"} alt={""}/>
-<Image src={bgBottom} className={"product-bg-bottom"} alt={""}/>
+        <Image src={bgTop} className={"product-bg-top"} alt={""}/>
+        <Image src={bgBottom} className={"product-bg-bottom"} alt={""}/>
     </div>
 }

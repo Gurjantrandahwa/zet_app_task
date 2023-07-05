@@ -2,6 +2,7 @@ import HeroSection from "../Components/HeroSection/HeroSection";
 import Brands from "../Components/Brands/Brands";
 import ProductCards from "../Components/ProductCards/ProductCards";
 import ZetEffects from "../Components/ZetEffects/ZetEffects";
+import Carousel from "../Components/Carousel/Carousel";
 
 export default function Home() {
     return <div>
@@ -12,5 +13,6 @@ export default function Home() {
 
         <ProductCards/>
         <ZetEffects/>
+        <Carousel/>
     </div>
 }

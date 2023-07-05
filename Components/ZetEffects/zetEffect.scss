@@ -3,30 +3,36 @@
   padding: 10vw;
   clip-path: polygon(0% 25%, 100% 0%, 100% 75%, 0% 100%);
   overflow: hidden;
-  height: 90vh;
+  height: 120vh;
   margin: 50px auto;
-border-radius: 4px;
-  .zet-bg-transparent{
+  border-radius: 4px;
+  position: relative;
+
+  .zet-bg-transparent {
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.31);
     clip-path: polygon(0% 25%, 100% 0%, 100% 75%, 0% 100%);
-    opacity: .3;
+    position: absolute;
+    width: 80%;
+    height: 70%;
 
     img {
-      object-fit: cover;
-opacity: 1!important;
+      object-fit: contain;
+      width: 50%;
+      height: auto;
+      filter: grayscale(80%);
+
     }
 
     .zet-text {
-      float: right;
       color: white;
-      h2{
+
+      h2 {
         font-size: 22px;
         font-weight: 700;
       }
     }
   }
-
 
 }
