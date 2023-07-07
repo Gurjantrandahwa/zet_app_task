@@ -37,7 +37,7 @@ export default function ProductCards() {
     ]
     return <div className={"product-wrapper container xl mx-auto xl:px-36 2xl:px-4"}>
         <h2 className={"title"}>
-            Products on ZET
+            Products
         </h2>
         <p className={"subtitle"}>We are trusted by best brand in the country</p>
         <div className={"product-cards"}>

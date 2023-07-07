@@ -6,6 +6,7 @@ import Carousel from "../Components/Carousel/Carousel";
 
 export default function Home() {
     return <div>
+        <Carousel/>
         <div className={"container xl mx-auto xl:px-36 2xl:px-4"}>
             <HeroSection/>
             <Brands/>
@@ -13,6 +14,6 @@ export default function Home() {
 
         <ProductCards/>
         <ZetEffects/>
-        <Carousel/>
+
     </div>
 }

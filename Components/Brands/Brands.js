@@ -34,7 +34,7 @@ const Brands = () => {
     ]
 
     return  <section className="brand-wrapper">
-        <h1 className="title">Top Brands on ZET</h1>
+        <h1 className="title">Top Brands</h1>
         <p className="subtitle">We are trusted by the best brands in the country</p>
 
         <div className="brand-images">

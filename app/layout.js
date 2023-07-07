@@ -5,14 +5,18 @@ import Navbar from "../Components/Navbar/Navbar";
 const inter = Inter({subsets: ['latin']})
 
 export const metadata = {
-    title: 'ZET: Become a Financial Advisor',
-    description: 'Become a Financial Advisor and Earn Rs.1 Lakh/Month',
+    title: 'ZET: Web Design',
+    description: 'Become a Financial Advisor',
+
 }
 
 export default function RootLayout({children}) {
     return <>
 
         <html lang="en">
+        <head>
+        {/*  cdn links of slick */}
+        </head>
         <body className={inter.className}>
         <Navbar/>
         {children}

@@ -15,7 +15,7 @@ export default function Navbar() {
     return <div className="nav-container">
         <nav className="nav-wrapper container mx-auto xl:px-36 px-4 py-6">
             <Link href="/">
-                <img src={"/Assets/logo.svg"}
+                <img src={"/Assets/logo.jpg"}
                      className={"logo"}
                      alt={"logo"}
                 />

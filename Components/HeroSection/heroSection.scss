@@ -1,11 +1,12 @@
 .hero-container {
   display: flex;
   align-items: center;
-  margin-top: 60px;
+  margin-top: 100px;
   gap: 100px;
-  background: #e9f4ff;
   border-radius: 8px;
   padding: 20px 60px;
+  box-shadow: 7px 22px 42px 0 rgba(0,0,0,0.1);
+
   @media (max-width: 768px) {
     margin: 60px 30px;
     padding: 20px;
@@ -32,13 +33,13 @@
     }
 
     p {
-      font-size: 20px;
+      font-size: 18px;
       margin-bottom: 16px;
-      margin-left: 20px;
+font-weight: 500;
     }
 
     .hero-playstore {
-      width: 120px;
+      width: 140px;
       height: auto;
     }
   }

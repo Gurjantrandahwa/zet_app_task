@@ -8,7 +8,7 @@ export default function ZetEffects() {
                 src={zetImage}
             />
             <div className={"zet-text"}>
-                <h2>The Zet effect</h2>
+                <h2>The effect</h2>
 
             </div>
         </div>
