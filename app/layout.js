@@ -16,6 +16,7 @@ export default function RootLayout({children}) {
         <html lang="en">
         <head>
         {/*  cdn links of slick */}
+
         </head>
         <body className={inter.className}>
         <Navbar/>

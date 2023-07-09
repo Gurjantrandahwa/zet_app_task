@@ -10,7 +10,7 @@ export default function Carousel() {
             tag: 'News',
             published: '16 August 2019',
             title: "New McLaren wind tunnel 'critical' to future performance, says Tech Director Key",
-            image: 'https://www.formula1.com/content/dam/fom-website/manual/Misc/2019-Races/Monaco2019/McLarenMonaco19.jpg.transform/9col/image.jpg',
+            image: 'https://i.pinimg.com/564x/20/81/b1/2081b11cbc9009d885d1ee57b49e7240.jpg',
             link: '#',
         },
         {
