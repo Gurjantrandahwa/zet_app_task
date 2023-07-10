@@ -5,6 +5,8 @@ import ZetEffects from "../Components/ZetEffects/ZetEffects";
 import Carousel from "../Components/Carousel/Carousel";
 
 export default function Home() {
+
+
     return <div>
         <Carousel/>
         <div className={"container xl mx-auto xl:px-36 2xl:px-4"}>

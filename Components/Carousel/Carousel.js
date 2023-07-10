@@ -7,24 +7,21 @@ export default function Carousel() {
     const [postIndex, setPostIndex] = useState(0);
     const posts = [
         {
-            tag: 'News',
-            published: '16 August 2019',
-            title: "New McLaren wind tunnel 'critical' to future performance, says Tech Director Key",
+            tag: 'Financial Freedom',
+            title: "Financial Freedom Awaits: Unlock Your Potential, Grow Wealth, and Secure Your Future.",
             image: 'https://i.pinimg.com/564x/20/81/b1/2081b11cbc9009d885d1ee57b49e7240.jpg',
             link: '#',
         },
         {
-            tag: 'Video',
-            published: '12 August 2019',
-            title: 'What To Watch For in the 2019 Hungarian Grand Prix',
-            image: 'https://www.formula1.com/content/dam/fom-website/sutton/2019/Hungary/Saturday/1017645792-LAT-20190803-_2ST5188.jpg.transform/9col-retina/image.jpg',
+            tag: 'Invest',
+            title: 'Invest. Grow. Thrive: Expert Guidance for Building Wealth and Achieving Financial Success.',
+            image: 'https://i.pinimg.com/564x/b4/86/e1/b486e1c969a42280031e9ca3dde2d157.jpg',
             link: '#',
         },
         {
-            tag: 'News',
-            published: '08 August 2019',
-            title: 'Hamilton wants harder championship fight from Leclerc and Verstappen',
-            image: 'https://www.formula1.com/content/dam/fom-website/manual/Misc/2019-Races/Austria-2019/Top3Austria2019.jpg.transform/9col-retina/image.jpg',
+            tag: 'Smart Money',
+            title: 'Smart Money, Smart Life: Make Informed Choices, Grow Wealth, and Live Your Dreams.',
+            image: 'https://i.pinimg.com/564x/71/07/fb/7107fbe7c855d62994740f9b020a0877.jpg',
             link: '#',
         },
     ];
@@ -88,7 +85,6 @@ export default function Carousel() {
                     </div>
                     <header className="post__header">
                         <span className="post__tag">{post.tag}</span>
-                        <p className="post__published">{post.published}</p>
                     </header>
                     <h2 className="post__title">{post.title}</h2>
                 </article>
