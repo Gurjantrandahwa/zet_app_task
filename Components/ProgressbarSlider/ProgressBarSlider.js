@@ -1,5 +1,5 @@
 "use client"
-import React, { useState, useEffect } from 'react';
+import React, {useState, useEffect} from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import "./progress.scss"
@@ -29,7 +29,7 @@ const ProgressBarSlider = () => {
         <h3>Slide 3</h3>,
     ];
 
-    return     <div className={"progress-caro"}>
+    return <div className={"progress-caro"}>
         <AliceCarousel
             items={slides}
             activeIndex={currentIndex}
@@ -37,7 +37,7 @@ const ProgressBarSlider = () => {
             autoPlay={true}
             autoPlayInterval={8000}
         />
-        <div style={{ width: `${progress}%`, height: '5px', backgroundColor: 'blue' }} />
+        <div style={{width: `${progress}%`, height: '5px', backgroundColor: 'blue'}}/>
     </div>
 }
 

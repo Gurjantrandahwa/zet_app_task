@@ -14,9 +14,7 @@ const ZetEffects = () => {
             <div className="zet-bg-transparent">
                 <Image src={zetImage}/>
                 <div className="zet-text">
-                    <h2>The effect</h2>
-
-
+                    <h2>The Effect</h2>
                 </div>
             </div>
 

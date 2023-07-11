@@ -1,7 +1,7 @@
 "use client"
 
-import { useState } from "react";
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import {useState} from "react";
+import {AiOutlineMenu, AiOutlineClose} from "react-icons/ai";
 import Link from "next/link";
 import "./Navbar.scss";
 
@@ -22,7 +22,7 @@ export default function Navbar() {
             </Link>
 
             <div className={`menu-icon ${isMenuOpen ? "open" : ""}`} onClick={toggleMenu}>
-                {isMenuOpen ? <AiOutlineClose /> : <AiOutlineMenu />}
+                {isMenuOpen ? <AiOutlineClose/> : <AiOutlineMenu/>}
             </div>
 
             <ul className={`menu ${isMenuOpen ? "open" : ""}`}>
@@ -52,9 +52,8 @@ export default function Navbar() {
                 </li>
 
                 <li className="playstore">
-                    <img src={"/Assets/playstore.svg"} alt={"playstore"} />
+                    <img src={"/Assets/playstore.svg"} alt={"playstore"}/>
                 </li>
-
 
 
             </ul>
