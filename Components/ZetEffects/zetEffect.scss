@@ -1,41 +1,56 @@
 .zet-bg {
   background-color: rgb(20, 92, 197);
-  padding: 10vw;
-  clip-path: polygon(0% 25%, 100% 0%, 100% 75%, 0% 100%);
   overflow: hidden;
-  height: 120vh;
+  display: flex;
   margin: 50px auto;
-  border-radius: 4px;
-  position: relative;
+  justify-content: center;
+  padding: 5rem 0;
 
   .zet-bg-transparent {
     display: flex;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.31);
-    clip-path: polygon(0% 25%, 100% 0%, 100% 75%, 0% 100%);
-    position: absolute;
     width: 80%;
-    height: 70%;
-
+    border-radius: 20px;
+    gap: 30px;
+    justify-content: space-between;
+flex-wrap: wrap;
+    margin: auto;
     img {
       object-fit: contain;
       width: 50%;
       height: auto;
-      filter: grayscale(80%);
+      mix-blend-mode: luminosity;
+      @media screen and (max-width: 790px) {
 
+width: 100%;
+ height: 250px;
+      }
     }
 
     .zet-text {
       color: white;
-
+      width:45%;
+      @media screen and (max-width: 790px) {
+        width: 100%;
+padding: 30px;
+      }
       h2 {
-        font-size: 2rem;
+        font-size: 1.7rem;
         font-weight: 700;
+        margin-bottom: 25px;
       }
 
+      h3 {
+        font-size: 1.3rem;
+        font-weight: 600;
+        line-height: 35px;
+      }
+
+      span {
+        color: rgb(255, 217, 167);
+      }
     }
-
   }
-
 }
 

@@ -1,0 +1,82 @@
+.choice-container {
+
+  margin: 60px auto;
+  position: relative;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  @media screen and (max-width: 600px) {
+   flex-direction: column;
+
+
+  }
+  .z-image-wrapper {
+
+    .z-bg {
+      height: 80vh;
+      width: 400px;
+      @media screen and (max-width: 600px) {
+      display: none;
+
+
+      }
+    }
+
+    .z-image {
+      position: absolute;
+      top: 10%;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      width: 220px;
+      height: 330px;
+      padding-right: 20px;
+      @media screen and (max-width: 600px) {
+     position: unset;
+
+
+      }
+      p {
+        text-align: center;
+        font-weight: 700;
+        font-size: 17px;
+
+        span {
+          color: #2075f0;
+        }
+      }
+
+      .z-image-img {
+        object-fit: cover;
+
+      }
+    }
+
+  }
+
+  .choice-cards {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 50px;
+justify-content: center;
+    .single-choice-card {
+      max-width: 220px;
+
+      img {
+        width: 80px;
+        object-fit: cover;
+        margin-bottom: 20px;
+      }
+
+      h5 {
+        font-size: 15px;
+        font-weight: 700;
+      }
+
+      p {
+        font-size: 13px;
+      }
+    }
+  }
+}
