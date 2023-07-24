@@ -1,5 +1,4 @@
 import React from "react";
-import "./years.scss";
 import {AiFillSetting, AiOutlineCloudDownload, AiOutlinePhone} from "react-icons/ai";
 
 export default function EvolvedYears() {
@@ -37,10 +36,8 @@ export default function EvolvedYears() {
                            <div className={"mb-4 bg-blue-500 text-white w-[50px] h-[50px] flex items-center justify-center rounded-full text-2xl"}>
                                {value.icon}
                            </div>
-
                            <h2 className={"font-semibold mb-2"}>{value.header}</h2>
                        </div>
-
                         <p className={"text-[13px]"}>
                             {value.description}
                         </p>
@@ -48,7 +45,5 @@ export default function EvolvedYears() {
                 })
             }
         </div>
-
-
     </div>
 }

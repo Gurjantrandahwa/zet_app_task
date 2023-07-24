@@ -7,8 +7,6 @@
   align-items: center;
   @media screen and (max-width: 600px) {
    flex-direction: column;
-
-
   }
   .z-image-wrapper {
 
@@ -17,8 +15,7 @@
       width: 400px;
       @media screen and (max-width: 600px) {
       display: none;
-
-
+        width: 100%;
       }
     }
 

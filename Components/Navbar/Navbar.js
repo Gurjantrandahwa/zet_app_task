@@ -54,8 +54,6 @@ export default function Navbar() {
                 <li className="playstore">
                     <img src={"/Assets/playstore.svg"} alt={"playstore"}/>
                 </li>
-
-
             </ul>
         </nav>
     </div>

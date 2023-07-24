@@ -52,6 +52,6 @@ const Brands = () => {
             </Swiper>
         </div>
     </section>
-};
+}
 
 export default Brands;
